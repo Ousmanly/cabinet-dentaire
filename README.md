@@ -1,0 +1,1 @@
+Ce dépôt contient les fichiers sources et les ressources utilisées pour le site web du cabinet dentaire. Ce site web a été conçu pour fournir des informations essentielles sur les services offerts par le cabinet, l'équipe médicale, ainsi que des informations pratiques pour les patients.
