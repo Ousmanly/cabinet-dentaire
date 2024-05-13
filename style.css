@@ -223,7 +223,7 @@ span#dental{
     height: 300px;
     text-align: center;
     align-items: center;
-    color: var(--muted);
+    color: var(--defaultLinkColor);
     background-color:var(--white);
 }
 .serviceRightIn{
@@ -304,7 +304,7 @@ span#dental{
 .item{
     background-color: var(--whiteBG);
     border: 1px var(--silver) solid;
-    width: 26%;
+    width: 27%;
     height: 250px;
     border-radius: 10px;
     text-align: center;
@@ -316,7 +316,7 @@ span#dental{
     margin-bottom: 10px;
 }
 .item p{
-    color: var(--silver) ;
+    color: var(--defaultLinkColor) ;
     font-weight: 500;
 }
 /* brighten */
