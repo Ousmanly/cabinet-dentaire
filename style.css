@@ -23,6 +23,7 @@ header{
     align-items: center;
     justify-content: space-between;
     height: 70px;
+    width: 100%;
     position: fixed;
     padding-bottom: 0;
     padding-left:105px ;
@@ -85,7 +86,7 @@ span#hmenu{
     margin-top: 50px;
     display: flex;
     align-items: center;
-    margin-left:95px ;
+    margin-left:10% ;
     width: 80%;
     height: 500px;
     justify-content: space-between;
@@ -123,7 +124,7 @@ span#dental{
     margin-top: 70px;
 }
 .get-learn .get{
-    height: 35px;
+    height: 45px;
     width: 150px;
     margin-right: 40px;
     text-align: center;
@@ -131,14 +132,12 @@ span#dental{
     background-color: var(--primary);
     color: var(--white);
     border-radius: 5px;
-    padding: 20px;
     cursor: pointer;
 }
 .get-learn .learn{
     border: 1px var(--muted) solid;
     border-radius: 5px;
-    padding: 20px;
-    height: 35px;
+    height: 45px;
     width: 150px;
     text-align: center;
     align-content: center;
@@ -252,7 +251,7 @@ span#dental{
 /* key featur */
 
 .key-top{
-    margin-left:120px ;
+    margin-left:10% ;
     width: 80%;
     height: 150;
     display: flex;
@@ -263,7 +262,7 @@ span#dental{
     content: "";
     height: 2px;
     width: 67%;
-    left: 275px;
+    left: 23%;
     background-color: var(--silver);
     transform: translateY(102px);
 }
@@ -292,7 +291,7 @@ span#dental{
 }
 
 #conitinair{
-    margin-left:120px ;
+    margin-left:10%;
     width: 80%;
     height: 700px;
 }
@@ -305,8 +304,8 @@ span#dental{
 .item{
     background-color: var(--whiteBG);
     border: 1px var(--silver) solid;
-    width: 290px;
-    height: 290px;
+    width: 26%;
+    height: 250px;
     border-radius: 10px;
     text-align: center;
     align-content: center;
@@ -366,7 +365,7 @@ span#dental{
 }
 /* about us */
 .about-us{
-    margin-left:120px ;
+    margin-left:10% ;
     width: 80%;
     height: 520px;
     display: flex;
@@ -451,7 +450,7 @@ h3{
     flex-direction: column;
 }
 .meet-top{
-    margin-left:120px ;
+    margin-left:10% ;
     width: 80%;
     height: 150;
     display: flex;
@@ -463,7 +462,7 @@ h3{
     content: "";
     height: 2px;
     width: 67%;
-    left: 250px;
+    left: 23%;
     background-color: var(--silver);
     transform: translateY(102px);
 }
@@ -597,7 +596,7 @@ h3{
 }
 /* register */
 .register{
-    margin-left:120px ;
+    margin-left:10% ;
     width:80% ;
     height: 550px;
     display: flex;
@@ -725,6 +724,7 @@ textarea{
     margin-top: 25px;
     margin-left: 10px;
     padding-right: 2px;
+    background-color: transparent;
 }
 #optionin:focus{
     outline: none;
@@ -740,7 +740,7 @@ textarea{
     padding-top: 40px;
 }
 .subscribetop{
-    margin-left: 120px;
+    margin-left: 10%;
     width: 80%;
     height: 160px;
     background-color: #216583;
@@ -785,10 +785,12 @@ footer{
     height: 350px;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .footertop{
     height: 300px;
     display: flex;
+    width: 100%;
     background-color: var(--primary);
 }
 .footerbottom{
