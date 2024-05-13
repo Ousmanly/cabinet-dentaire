@@ -668,20 +668,20 @@ h3{
 .bottom .bottom-right .form .option{
     height: 30px;
     width: 240px;
-    border-radius: 8px;
+    border-radius: 5px;
     border: 2px var(--silver) solid;
 }
 .inputin{
     margin-bottom:15px ;
     width: 240px;
     height: 30px;
-    border-radius: 8px;
+    border-radius: 5px;
     border: 2px var(--silver) solid;
     padding: 5px;
 }
 textarea{
     width: 510px;
-    border-radius: 8px;
+    border-radius: 5px;
     border: 2px var(--silver) solid;
     padding: 5px;
     resize: none;
@@ -700,7 +700,7 @@ textarea{
     margin-top: 20px;
     width: 510px;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 8px;
     background-color: var(--primary);
     border: none;
     color: var(--white);
