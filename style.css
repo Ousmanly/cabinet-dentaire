@@ -372,7 +372,7 @@ span#dental{
     font-weight: 500;
 }
 /* brighten */
-.brighten{
+/* .brighten{
     width: 100%;
     height: 400px;
     background-color: var(--primary);
@@ -414,7 +414,7 @@ span#dental{
 .brighten-bottom a{
     text-decoration: none;
     color: var(--white);
-}
+} */
 /* about us */
 .about-us{
     margin-left:10% ;
@@ -424,18 +424,20 @@ span#dental{
     flex-direction: column;
 }
 .about-us .top{
-    height:120px;
-    display: flex;
+    height:60px;
+    width: 100%;
+    text-align: center;
 }
 .top::after{
     position: absolute;
     content: "";
     height: 2px;
-    width: 66%;
+    width: 100%;
+    right: 0;
     background-color: var(--silver);
-    transform: translateY(90px);
+    transform: translateY(15px);
 }
-.top .top-left{
+/* .top .top-left{
     height:120px;
     background-color: var(--white);
     width: 50%;
@@ -444,8 +446,8 @@ span#dental{
 }
 .top-left h1{
     font-size: 43px;
-}
-.top-left span{
+} */
+.top span{
     color: var(--yellow);
 }
 .top .top-right{
@@ -470,10 +472,11 @@ h3{
     margin-left: -14px;
 }
 .bottom img{
-    height: 355px;
-    margin-top: 30px;
+    height: 280px;
+    margin-top: 60px;
     width: 40%;
     margin-left: 50px;
+    border-radius: 32px;
 } 
 .bottom .rigth{
     background-color: var(--whiteBG);
@@ -483,7 +486,7 @@ h3{
     height: 300px;
     width: 51%;
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 10%;
     padding-left: 40px;
 }
 .bottom .rigth h4{
@@ -959,9 +962,20 @@ footer{
 }
 
 
-
+@media(max-width:1144px){
+    
+    .bottom .rigth h4{
+        margin-bottom: 15px;
+        margin-top: 45px;
+    }
+    .bottom .rigth p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}
 
 @media(max-width:948px){
+    
     .navbar .links, .action_btn{
         display: none;
     }
@@ -1001,6 +1015,16 @@ footer{
     .div2{
         width: 110px;
         height: 120px;
+    }
+
+    
+    .bottom .rigth h4{
+        margin-bottom: 15px;
+        margin-top: 45px;
+    }
+    .bottom .rigth p{
+        font-size: 11px;
+        margin-bottom: 10px;
     }
     
 }
@@ -1075,6 +1099,20 @@ footer{
     .serviceRightIn-right{
         font-size: 11px;
     }
+
+
+    .bottom .rigth{
+        padding-left: 9px;
+    }
+    .bottom .rigth h4{
+        margin-bottom: 15px;
+        margin-top: 45px;
+    }
+    .bottom .rigth p{
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+
 }
 @media(max-width :778px){
     .key-feature{
@@ -1084,6 +1122,7 @@ footer{
         width: 45%;
         height: 300px;
     }
+
 }
 @media(max-width:452px){
     .dropwdown_menu{
@@ -1114,5 +1153,32 @@ footer{
     }
     #home .rigth{
         width: 90%;
+    }
+    /* about us */
+    .about-us{
+        height: 700px;
+    }
+    .about-us .bottom{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom .left{
+        width: 90%;
+        margin: auto;
+    }
+    .bottom .rigth{
+        height: 250px;
+        width: 100%;
+        margin: auto;
+        padding-left: 20px;
+    }
+    .bottom .rigth h4{
+        margin-bottom: 15px;
+        margin-top: 45px;
+    }
+    .bottom .rigth p{
+        font-size: 11px;
+        margin-bottom: 10px;
     }
 }
