@@ -5,21 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cabinet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="images/Logo.png" alt="logo" >
-        </div>
-        <div class="menu">
-            <ul>
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/Logo.png" alt="logo" >
+            </div>
+            <ul class="links">
                 <li><a href="#home"><span id="hmenu">Home</span></a></li>
                 <li><a href="#service">Services</a></li>
                 <li><a href="#about">About us</a></li>
-                <li><a href="#register">Register</a></li>
+                <li><a href="#register">Apoinement</a></li>
+                <li><a href="#signUp">Sign Up</a></li>
             </ul>
-            <div class="apointement"><a href="#appoinment">Appoinment</a></div>
+            <a href="#" class="action_btn apointement">Login</a>
+            <div class="togle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropwdown_menu">
+            <li><a href="#home"><span id="hmenu">Home</span></a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#register">Apoinement</a></li>
+            <li><a href="#signUp">Sign Up</a></li>
+            <li><a href="#" class="action_btnn apointement">Login</a></li>
         </div>
     </header>
     <section id="home">
@@ -31,36 +44,36 @@
             </P>
             <div class="get-learn">
                 <div class="get">
-                    Get Started
-                </div>
-                <div class="learn">
-                    Learn More
+                    Make An Appoinment
                 </div>
             </div>
         </div>
         <div class="rigth">
-            <img src="images/illustrationss.png" alt="illustrationss">
+            <img src="images/dental-pexels-photo-6627462.jpeg" alt="illustrationss">
         </div>
     </section>
-    <section class="Service" id="service">
+   <section class="Service" id="service">
         <div class="allservice">
             <div class="service-top">
                 <div class="div1">
                     <h1>How to get our service?</h1>
                     <p>Just fllow these simple steps</p>
                 </div>
-                <div class="div2 call">
-                    <img src="images/Call.png" alt="call" width="35px">
-                    <p>Call for apointement</p>
+                <div class="div">
+                    <div class="div2 call">
+                        <img src="images/Call.png" alt="call" width="35px">
+                        <p>Call for apointement</p>
+                    </div>
+                    <div class="div2 date">
+                        <img src="images/Date.png" alt="call" width="35px">
+                        <p>Get a<br> Date & Serial</p>
+                    </div>
+                    <div class="div2">
+                        <img src="images/Doctor-Consult.png" alt="call" width="35px">
+                        <p>Consult <br> Your dentist</p>
+                    </div>
                 </div>
-                <div class="div2 date">
-                    <img src="images/Date.png" alt="call" width="35px">
-                    <p>Get a<br> Date & Serial</p>
-                </div>
-                <div class="div2">
-                    <img src="images/Doctor-Consult.png" alt="call" width="35px">
-                    <p>Consult <br> Your dentist</p>
-                </div>
+                
             </div>
             <div class="service-bottom">
                 <div class="serviceLeft">
@@ -96,14 +109,7 @@
     </section>
     <section class="key-feature">
         <div class="key-top">
-            <div class="key-left">
-                <h1 class="h">What Makes Us More <br>
-                    <span class="special">Special</span>
-                </h1>
-            </div>
-            <div class="key-right">
-                <h1>KEY <span>FEATURE</span></h1>
-            </div>
+            <h1>OUR <span>SERVICES</span></h1>
         </div>
         <section id="conitinair">
             <div class="conitinair">
@@ -159,7 +165,7 @@
         </section>
        
     </section> 
-    <section class="brighten">
+    <!-- <section class="brighten">
         <div class="brighten-top">
             <h1>Let Us brighten <span>Your Smile!</span></h1>
             <p>Helping patients achieve good dental heakth & beautiful smile is a privilege & responsability. For over 30 <br><br>
@@ -170,7 +176,7 @@
         <button class="brighten-bottom">
            <a href="#appoinment">Make An Appinment</a>
         </button>
-    </section> 
+    </section>  -->
      
     <section class="about-us" id="about">
         <div class="top">
@@ -197,7 +203,7 @@
                 </div>
         </div>
     </section>
-    <section class="meet">
+   <!--<section class="meet">
         <div class="meet-top">
             <div class="meet-left">
                 <h1 class="h">Meet Some of Our <br>
@@ -391,7 +397,8 @@
         <div class="footerbottom">
             ⓒ 2001-2022, All Rights Reserved
         </div>
-    </footer> 
+    </footer>  -->
 
+    <script src="script.js"></script>
 </body>
 </html>
