@@ -100,32 +100,6 @@ header::after{
     justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-/* .menu{
-    display: flex;
-}
-.menu ul{
-    display: flex;
-}
-.menu ul li{
-    margin: 0 15px;
-    list-style: none;
-    margin-top: 5px;
-}
-.menu ul li a{
-    font-size: 14px;
-    text-decoration: none;
-    color: #999;
-    position: relative;
-} */
 .apointement{
     background: var(--primary);
     width: max-content;
@@ -147,6 +121,70 @@ header::after{
 }
 span#hmenu{
     color: var(--primary);
+}
+/* sign*/
+.sign{
+    width: 750px;
+    height: 450px;
+    border: 2px var(--primary) solid;
+    border-top-right-radius: 32px;
+    border-top-left-radius: 32px;
+    margin: auto;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+}
+.sign-top{
+    width: 100%;
+    height: 70px;
+    background-color: var(--primary);
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    text-align: center;
+    align-content: center;
+    font-size: 35px;
+    color: var(--white);
+}
+.sign-bottom{
+   height: 380px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+   padding-top: 30px;
+}
+.sign-bottom .champ{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.sign-bottom .champ input{
+    width: 100%;
+    height: 35px;
+    border: 2px var(--silver) solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.sign-bottom .check{
+    width: 83%;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.sign-bottom .check a{
+    margin-right: 10px;
+    text-decoration: underline;
+}
+.sign-bottom button{
+    width: 83%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    color: var(--white);
+    background-color: var(--primary);
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
 /* Home */
 #home{
@@ -637,6 +675,7 @@ textarea{
 #optionin:active{
     border: none;
 }
+
 /* subscribe */
 .subscribe{
     width: 100%;
@@ -695,7 +734,7 @@ footer{
 .footertop{
     height: 300px;
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     background-color: var(--primary);
 }
 .footerbottom{
@@ -812,7 +851,7 @@ footer{
 }
 
 
-@media(max-width:1144px){
+@media(max-width:1166px){
     
     .bottom .rigth h4{
         margin-bottom: 15px;
@@ -822,7 +861,34 @@ footer{
         font-size: 12px;
         margin-bottom: 10px;
     }
-   
+    /* footer */
+    .footertop{
+        padding-left: 5%;
+        padding-right: 10%;
+    }
+    .footertop .itemf{
+        width: 25%;
+        font-size: 13px;
+    }
+    .footertop .itemf p,h1{
+        font-size: 10px;
+        
+    }
+    .footertop .itemf h1{
+        font-size: 17px;
+        
+    }
+    .footertop .itemf .itemf1top img{
+        width:100px;
+        filter: brightness(0) invert(1);
+    }
+    .footertop .itemf .itemf3bottom a{
+        font-size: 12px;
+    }
+    .footertop .itemf .itemf3bottom{
+        width: 190px;
+    }
+    
 }
 
 @media(max-width:948px){
@@ -835,7 +901,8 @@ footer{
     }
     .dropwdown_menu{
         display: block;
-        /* right:14% ; */
+        margin-top: 25px;
+        right:6% ;
     }
 
     /* home */
@@ -881,6 +948,26 @@ footer{
         height:780px;
     }
     
+}
+@media(max-width:950px){
+    footer{
+        height: 800px;
+        /* border: 2px solid black; */
+        margin-top: 30px;
+    }
+    .footertop{
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footertop .itemf{
+        width: 35%;
+        font-size: 13px;
+    }
+    .footertop .itemf2{
+        border-right: none;
+    }
 }
 @media(max-width:786px) {
     .div1 h1{
@@ -981,6 +1068,15 @@ footer{
     .item p{
         font-size: 11px;
     }
+    /* sign */
+    .sign{
+        width: 400px;
+        height: 640px;
+        margin-bottom: 30px;
+    }
+    .sign-bottom .champ{
+        width: 70%;
+    }
    
 }
 @media(max-width :935px){
@@ -1033,6 +1129,14 @@ footer{
     }
    
 }
+@media(max-width:634px){
+    .sign{
+        width: 400px;
+        height: 650px;
+        margin-bottom: 30px;
+    }
+   
+}
 @media(max-width:656px){
     .meet{
         height:1500px;
@@ -1041,7 +1145,6 @@ footer{
         height:1400px;
     
     }
-   
 }
 @media(max-width:691px){
     
@@ -1064,6 +1167,69 @@ footer{
         height: 350px;
         margin: auto;
         /* border: 2px solid black; */
+    }
+
+    /* subscribe */
+    .subscribe{
+        width: 100%;
+        height: 330px;
+        /* border: 2px solid black; */
+    }
+    .subscribetop{
+        margin-left: 10%;
+        width: 80%;
+        height: 250px;
+    }
+    .subscribebottom{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        gap: 20px;
+    }
+    .subscribebottom input{
+        width: 250px;
+        height: 35px;
+    }
+    .subscribebottom button{
+        height: 35px;
+        width: 250px;
+    }
+    .subscribetop h1{
+        font-size: 22px;
+    }
+    /* foter */
+    footer{
+        height: 1200px;
+        /* border: 2px solid black; */
+    }
+    .footertop .itemf{
+        width: 55%;
+        font-size: 15px;
+        margin-top: 10;
+        text-align: center;
+    }
+    .footertop{
+        height: 1200px;
+    }
+    .footertop .itemf1{
+        border-bottom: 2px var(--silver) solid;
+        border-right: none;
+        align-items: center;
+    }
+    .footertop .itemf2{
+        border-bottom: 2px var(--silver) solid;
+        align-items: center;
+    }
+    .footertop .itemf3{
+        border-bottom: 2px var(--silver) solid;
+        border-right: none;
+        align-items: center;
+    }
+    .footertop .itemf4{
+        align-items: center;
+    }
+    .footerbottom{
+        font-size: 13px;
     }
 }
 @media(max-width:452px){
@@ -1155,5 +1321,15 @@ footer{
     }
     .divflex .check label{
         font-size: 10px;
+    }
+    /* subscibe */
+    .subscribetop h1{
+        font-size: 15px;
+    }
+    /* sign */
+    .sign{
+        width: 300px;
+        height: 650px;
+        margin-bottom: 30px;
     }
 }

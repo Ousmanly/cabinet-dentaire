@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/Logo.png" alt="logo" >
+                </a>           
+            </div>
+        </div>
+    </header>
+    <section class="sign">
+        <div class="sign-top">
+            Sign Up
+        </div>
+        <form class="sign-bottom">
+            <div class="champ">
+                <label for="name">Name</label>
+                <input type="text" name="nom" id="name" placeholder="Full name" required>
+            </div>
+            <div class="champ">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="champ">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password" required>
+            </div>
+            <div class="champ">
+                <label for="cpassword">Confirm Password</label>
+                <input type="password" name="cpassword" id="cpassword" placeholder="Password" required>
+            </div>
+            <div class="champ">
+                <label for="phone">Phone</label>
+                <input class="inputin" type="tel" id="phone" placeholder="(222) 00-00-00-00" maxlength="8" required>
+                <select name="indicatif" id="optionin">
+                    <option value="+01">+01</option>
+                    <option>+33</option>
+                </select>
+            </div>
+            <div class="champ">
+                <label for="adress">Address</label>
+                <input type="text" name="adress" id="adress" placeholder="Address">
+            </div>
+            <div class="check">
+                <div class="remember">
+                    <input  type="checkbox" id="check">
+                    <label for="check">Remember me</label>
+                </div>
+                <a href="#">Sign UP</a>
+            </div>
+            <button>create account</button>
+        </form>
+    </section>
+</body>
+</html>
