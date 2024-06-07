@@ -1105,8 +1105,8 @@ footer{
     }
     .get-learn .get{
         margin: auto;
-        padding: 10px;
         text-align: center;
+        align-content: center;
     }
     #home .left{
         width: 100%;
