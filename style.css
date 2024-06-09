@@ -1415,7 +1415,10 @@ footer{
         margin-bottom: 10px;
     }
     .register{
-        height: 550px;
+        height: 570px;
+    }
+    .register .form{
+        margin-top: 25px;
     }
     .register .bottom{
         height: 760px;
