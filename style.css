@@ -404,15 +404,6 @@ span#dental{
     align-content: center;
     color: var(--muted) ;
 }
-/* .call{
-    margin-right: -135px;
-}
-.date{
-    margin-right: -135px;
-} 
-.div2 p{
-    margin-top: 6px;
-}*/
 .serviceLeft{
     width: 40%;
     background-color: var(--whiteBG);
@@ -957,6 +948,18 @@ footer{
         margin-bottom: 15px;
         margin-top: 45px;
     }
+    .key-feature .key-top h1{
+        font-size: 23px;
+    }
+    .about-us .top h1{
+        font-size: 23px;
+    }
+    .meet .meet-top h1{
+        font-size: 20px;
+    }
+    .register .top h1{
+        font-size: 20px;
+    }
     .bottom .rigth p{
         font-size: 12px;
         margin-bottom: 10px;
@@ -1278,14 +1281,12 @@ footer{
         width: 440px;
         height: 350px;
         margin: auto;
-        /* border: 2px solid black; */
     }
 
     /* subscribe */
     .subscribe{
         width: 100%;
         height: 330px;
-        /* border: 2px solid black; */
     }
     .subscribetop{
         margin-left: 10%;
@@ -1312,7 +1313,6 @@ footer{
     /* foter */
     footer{
         height: 1200px;
-        /* border: 2px solid black; */
     }
     .footertop .itemf{
         width: 55%;
@@ -1344,7 +1344,7 @@ footer{
         font-size: 13px;
     }
 }
-@media(max-width:452px){
+@media(max-width:500px){
     /* header */
     .links{
         width: 100%;
@@ -1398,7 +1398,6 @@ footer{
     }
     .register{
         height: 850px;
-        /* border: 2px solid black; */
     }
     .register .bottom{
         height: 760px;
@@ -1408,7 +1407,6 @@ footer{
     .bottom .bottom-right{
         width: 270px;
         height: 460px;
-        /* border: 2px solid black; */
         margin-top: 15px;
     }
     textarea{
@@ -1442,7 +1440,6 @@ footer{
     /* login */
     .login{
         width: 300px;
-        /* height: 400px; */
     }
     .sign-bottom button{
         font-size: 15px;
