@@ -82,6 +82,9 @@ header::after{
     margin-left: 23px;
     border-radius: 5px;
 }
+.links{
+    align-items: center;
+}
 .apointement a{
     text-decoration: none;
     color:var(--white) ;
@@ -943,7 +946,9 @@ footer{
 
 
 @media(max-width:1166px){
-    
+    .serviceRight h1{
+        font-size: 25px;
+    }
     .bottom .rigth h4{
         margin-bottom: 15px;
         margin-top: 45px;
@@ -1121,17 +1126,19 @@ footer{
         align-items: center;
     }
     .serviceRightIn{
-        margin-left: 10%;
+        /* margin-left: 10%; */
     }
     .serviceRightIn-left{
-        font-size: 11px;
+        font-size: 15px;
+        width: 40%;
     }
     .serviceRightIn img{
-        width: 11px;
+        width: 13px;
         color: var(--muted);
     }
     .serviceRightIn-right{
-        font-size: 11px;
+        font-size: 15px;
+        width: 50%;
     }
 
 
@@ -1171,9 +1178,16 @@ footer{
 }
 @media(max-width :935px){
     /* heafer */
+    header{
+       padding: 0;
+    }
+    .logo img{
+        margin-left: 50px;
+    }
     .hamburger,
     .toggle-menu{
         display: block;
+        margin-right: 50px;
     }
     
     .links{
@@ -1185,7 +1199,7 @@ footer{
         margin-top: -500px;
         background-color: rgba(235, 235, 235, 0.1);
         backdrop-filter: blur(15px);
-        width: 300px;
+        width: 100%;
         height: 350px;
         padding-top: 20px;
         /* transition: 0.9s; */
@@ -1194,6 +1208,10 @@ footer{
     .navbar input:checked ~ .links{
         margin-top: 0px;
         transition: 0.7s;
+    }
+    .apointement{
+        margin: auto;
+        margin-top: 0;
     }
     /* meet */
    
@@ -1209,7 +1227,7 @@ footer{
     /* Register */
     .bottom .bottom-left{
         height: 300px;
-        width: 400px;
+        width: 1000px;
         margin-top: 35px;
     }
     .bottom .bottom-right{
@@ -1346,6 +1364,9 @@ footer{
 }
 @media(max-width:500px){
     /* header */
+    .serviceRight h1{
+        font-size: 20px;
+    }
     .links{
         width: 100%;
         height: 350px;
@@ -1397,12 +1418,15 @@ footer{
         margin-bottom: 10px;
     }
     .register{
-        height: 850px;
+        height: 550px;
     }
     .register .bottom{
         height: 760px;
         display: flex;
         flex-direction: column;
+    }
+    .bottom .bottom-left{
+       display: none;
     }
     .bottom .bottom-right{
         width: 270px;
