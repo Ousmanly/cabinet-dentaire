@@ -1220,9 +1220,18 @@ footer{
         width: 50%;
         text-align: center;
     }
+    .links li a:hover{
+        color: var(--primary);
+    }
     .links .app:hover{
         background-color: white;
-        border-bottom:none
+        border-bottom:none;
+    }
+    .links .app a:hover{
+        color: white;
+    }
+    span#hmenu:hover{
+        color: var(--primary);
     }
     .navbar input:checked ~ .links{
         margin-top: 0px;
@@ -1403,6 +1412,9 @@ footer{
 }
 @media(max-width:500px){
     /* header */
+    span#hmenu{
+        color: black;
+    }
     .serviceRight h1{
         font-size: 20px;
     }
