@@ -1096,7 +1096,7 @@ footer{
     .div1{
         width: 100%;
         text-align: center;
-
+        padding-left: 0;
     }
     .div1 h1{
         font-size: 40px;
