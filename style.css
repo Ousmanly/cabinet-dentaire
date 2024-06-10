@@ -606,10 +606,11 @@ h3{
    color: var(--yellow);
 }
 .meet-bottom{
-    height: 350px;
+    /* height: 500px; */
     width: 80%;
     display: flex;
     margin: 0 auto;
+    margin-bottom: 30px;
     gap: 20px;
 }
 .meet-bottomin{
@@ -686,11 +687,12 @@ h3{
 }
 .bottom .bottom-left{
     width: 33%;
-    height: 400px;
+    height: 100%;
     background-image: url('images/doctor-with-tablet-computer.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 32px;
+    margin-left: 10%;
 }
 .bottom .bottom-right{
     margin-left: 30px;
@@ -1233,7 +1235,7 @@ footer{
     /* Register */
     .bottom .bottom-left{
         height: 300px;
-        width: 1000px;
+        /* width: 1000px; */
         margin-top: 35px;
     }
     .bottom .bottom-right{
