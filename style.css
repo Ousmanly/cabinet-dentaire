@@ -42,13 +42,12 @@ header{
 }
 .navbar{
     position: relative;
-    width: 100%;
+    width: 90%;
     height: 80px;
-    max-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10px;
+    margin: auto;
     background-color: white;
 }
 .logo img{
@@ -61,14 +60,6 @@ header{
     position: absolute;
     right: 0;
 }
-/* header::after{
-    position: absolute;
-    content: "";
-    height: 2px;
-    width: 100%;
-    background-color: var(--silver);
-    transform: translateY(0px);
-} */
 
 .apointement{
     background: var(--primary);
@@ -291,10 +282,10 @@ span#hmenu{
 }
 /* Home */
 #home{
-    margin-top: 50px;
     display: flex;
     align-items: center;
-    margin-left:10% ;
+    margin: auto;
+    padding-top: 80px;
     width: 80%;
     height: 500px;
     justify-content: space-between;
@@ -328,22 +319,25 @@ span#dental{
     width: 100%;
     border-radius: 32px;
 }
-.get-learn{
+/* .get-learn{
     display: flex;
     margin-top: 70px;
-}
-.get-learn .get{
-    height: 45px;
+} */
+/* .get-learn  */
+.get{
+    /* height: 45px; */
+    margin-top: 70px;
+    padding: 13px;
     width: 250px;
     margin-right: 40px;
     text-align: center;
-    align-content: center;
+    /* align-content: center; */
     background-color: var(--primary);
     color: var(--white);
     border-radius: 5px;
     cursor: pointer;
 }
-.get-learn .learn{
+/* .get-learn .learn{
     border: 1px var(--muted) solid;
     border-radius: 5px;
     height: 45px;
@@ -352,7 +346,7 @@ span#dental{
     align-content: center;
     cursor: pointer;
     color: var(--defaultLinkColor);
-}
+} */
 /* services */
 .Service{
     width: 100%;
@@ -375,6 +369,7 @@ span#dental{
     align-content: center;
 }
 .service-bottom{
+    width: 100%;
     height: 400px;
     background-color: var(--white);
     display: flex;
@@ -455,7 +450,8 @@ span#dental{
 /* key featur */
 
 .key-top{
-    margin-left:10% ;
+    /* margin-left:10% ; */
+    margin: auto;
     width: 80%;
     height: 60px;
     text-align: center;
@@ -475,7 +471,8 @@ span#dental{
 }
 
 #conitinair{
-    margin-left:10%;
+    /* margin-left:10%; */
+    margin: auto;
     width: 80%;
     height: 600px;
 }
@@ -506,7 +503,8 @@ span#dental{
 
 /* about us */
 .about-us{
-    margin-left:10% ;
+    /* margin-left:10% ; */
+    margin: auto;
     width: 80%;
     height: 520px;
     display: flex;
@@ -529,13 +527,13 @@ span#dental{
 .top span{
     color: var(--yellow);
 }
-.top .top-right{
+/* .top .top-right{
     height:120px;
     background-color: var(--white);
     width: 50%;
     text-align: right;
     align-content: center;
-}
+} */
 .top-right h1{
     font-size: 42px;
 }
@@ -579,11 +577,13 @@ h3{
 /* meet */
 .meet{
     height: 450px;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 .meet-top{
-    margin-left:10% ;
+    /* margin-left:10% ; */
+    margin: auto;
     width: 80%;
     height: 80px;
     text-align: center;
@@ -652,7 +652,8 @@ h3{
 
 /* register */
 .register{
-    margin-left:10% ;
+    /* margin-left:10% ; */
+    margin: auto;
     width:80% ;
     height: 550px;
     display: flex;
@@ -778,7 +779,8 @@ textarea{
     padding-top: 40px;
 }
 .subscribetop{
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    margin: auto;
     width: 80%;
     height: 160px;
     background-color: #216583;
@@ -828,7 +830,7 @@ footer{
 .footertop{
     height: 300px;
     display: flex;
-    /* width: 100%; */
+    width: 100%;
     background-color: var(--primary);
 }
 .footerbottom{
@@ -1003,6 +1005,7 @@ footer{
     /* home */
     #home .left{
         width: 50%;
+        height: 200px;
     }
     #home .left h1{
         font-size: 25px;
@@ -1015,13 +1018,15 @@ footer{
         margin-top: 20px;
         color: #999;
     }
-    .get-learn{
+    /* .get-learn{
         margin-top: 50px;
-    }
-    .get-learn .get{
+    } */
+    .get{
         height: 35px;
         width: 140px;
-        margin-right: 30px;
+        /* margin-right: 30px; */
+        /* margin: auto; */
+        margin-top: 50px;
         font-size: 10px;
     }
     /* service */
@@ -1037,7 +1042,7 @@ footer{
     }
     .bottom .rigth p{
         font-size: 11px;
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
     }
     .meet{
         height:780px;
@@ -1359,24 +1364,15 @@ footer{
         font-size: 13px;
     }
 }
-@media(max-width:500px){
-    /* header */
-    .serviceRight h1{
-        font-size: 20px;
-    }
-    .links{
-        width: 100%;
-        height: 350px;
-    }
-    /* home */
+@media(max-width:554px){
     #home{
         display: flex;
         flex-direction: column;
-        margin-top: 100px;
+        height: 600px;
         text-align: center;
     }
-    .get-learn .get{
-        margin: auto;
+    .get{
+        margin:30px auto;
         text-align: center;
         align-content: center;
     }
@@ -1387,6 +1383,18 @@ footer{
     #home .rigth{
         width: 90%;
     }
+}
+@media(max-width:500px){
+    /* header */
+    .serviceRight h1{
+        font-size: 20px;
+    }
+    .links{
+        width: 100%;
+        height: 350px;
+    }
+    /* home */
+    
     /* about us */
     .about-us{
         height: 700px;
@@ -1401,7 +1409,7 @@ footer{
         margin: auto;
     }
     .bottom .rigth{
-        height: 250px;
+        height: 260px;
         width: 100%;
         margin: auto;
         padding-left: 20px;
