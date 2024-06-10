@@ -1205,13 +1205,24 @@ footer{
         position: relative;
         top: 84px;
         margin-top: -500px;
-        background-color: rgba(235, 235, 235, 0.1);
-        backdrop-filter: blur(20px);
+        background-color: var(--white);
+        /* background-color: rgba(235, 235, 235, 0.1); */
+        /* backdrop-filter: blur(20px); */
         width: 300px;
         height: 350px;
         padding-top: 20px;
         /* transition: 0.9s; */
         z-index: -2;
+    }
+    .links li:hover{
+        border-bottom: 2px solid var(--primary);
+        padding: 5px;
+        width: 50%;
+        text-align: center;
+    }
+    .links .app:hover{
+        background-color: white;
+        border-bottom:none
     }
     .navbar input:checked ~ .links{
         margin-top: 0px;
